@@ -28,6 +28,6 @@ class Explosion(Actor):
         self.frames_left = self.frames_left - 1
 
         if self.frames_left in [1,3,5]:
-            self.set_text("#" * self._length)
+            self.set_text("X" * self._length)
         elif self.frames_left in [0,2,4]:
-            self.set_text("@" * self._length)
+            self.set_text("O" * self._length)

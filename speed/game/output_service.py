@@ -56,4 +56,4 @@ class OutputService:
         Args:
             self (OutputService): An instance of OutputService.
         """ 
-        self._screen.refresh() 
+        self._screen.refresh()   

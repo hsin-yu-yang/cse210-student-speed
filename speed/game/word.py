@@ -87,3 +87,4 @@ class Word(Actor):
         self._points = len(word_text) * self._speed
         if self._has_bonus:
             self._points = self._points * 5
+        
